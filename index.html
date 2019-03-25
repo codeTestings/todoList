@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Todo List</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Quicksand:300" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+</head>
+<body>
+	<div id="main-container">
+		<p id="title">Todo List<p>
+		<div id="buttons-container">
+			<div id="first-line-buttons" class="center">
+				<button id="display-todos-button" onclick="handlers.displayTodo()">Display Todos</button>
+				<button id="toggle-all-button" onclick="handlers.toggleAll()">Toggle All</button>
+			</div>
+			<div id="second-line-buttons" class="center">
+				<button onclick="handlers.addTodo()" id="add-button">Add</button>
+				<input type="text" id="add-todo-text-input"></input>
+			</div>
+			<div id="third-line-buttons" class="center">
+				<button onclick="handlers.changeTodo()" id="change-todo-button">Change Todo</button>
+				<input type="number" id="todo-change-position-input"></input>
+				<input type="text" id="change-todo-text-input"></input>
+			</div>
+			<div id="fourth-line-buttons" class="center">
+				<button id="delete-todo-button" onclick="handlers.deleteTodo()">Delete Todo</button>
+				<input id="delete-todo-position-input" type="number"></input>
+			</div>
+			<div id="fifth-line-buttons" class="center">
+				<button id="toggle-todo-button" onclick="handlers.toggleTodo()">Toggle Todo</button>
+				<input id="toggle-todo-position-input" type="number"></input>
+			</div>
+		</div>
+		<!-- <div id="test"></div> -->
+		<textarea id="list"></textarea>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
