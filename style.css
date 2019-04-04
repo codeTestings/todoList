@@ -113,6 +113,7 @@ body {
 			border-style: none;
 			font-family: arial;
 		}
+
 	#fifth-line-buttons {
 		display: flex;
 	}
@@ -157,4 +158,10 @@ button {
 .center {
 	justify-content: center;
 	align-items: center;
+}
+
+#mirek {
+	display: inline-block;
+	width: 200px;
+	background-color: aqua;
 }
