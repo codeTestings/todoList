@@ -100,3 +100,5 @@ var view = {
     }
   }
 }
+
+console.log('hello test');
