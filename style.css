@@ -162,6 +162,9 @@ button {
 
 #mirek {
 	display: inline-block;
-	width: 200px;
-	background-color: aqua;
+	width: 230px;
+	height: 177px;
+	overflow-x: hidden;
+	border-radius: 3px;
+	background-color: white;
 }
